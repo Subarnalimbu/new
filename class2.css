@@ -1,0 +1,21 @@
+form{
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    position: relative
+    right: 0;
+}
+table{
+    padding-bottom: 30px;
+}
+
+div{
+    border: 2px solid black;
+    width: 300px;
+}
