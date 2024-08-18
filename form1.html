@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form </title>
+    <style>
+       body{
+        background-color: rgb(233, 186, 186);
+       }
+       form{
+        background-color: rgba(29, 32, 212, 0.851);
+        display: inline-block;
+        height:600px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        position: absolute;
+        top: 5%;
+        left: 35%;
+        color: white;
+       }
+       h1{
+        text-align: center;
+       }
+
+       label{
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+       }
+       .input{
+        margin-bottom: 40px;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        padding-left: 30px;
+        position: relative;
+        left: 20px;
+      
+       }
+       
+
+       button{
+        background-color: rgb(225, 29, 29);
+        height: 40px;
+        width:100px;
+        border-radius:20px;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        left: 150px;
+        bottom: 10px;
+
+       }
+
+       select{
+        font-size: 20px;
+        width: 200px;
+        font-weight: bold;
+        position: relative;
+        left: 20px;
+       }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <form action="">
+         <h1> WELCOME FORM</h1> 
+         <label  for="">Name</label><br>
+         <input class="input" type="text" placeholder="enter your name"><br>
+
+         <label for="">Phone-no:</label><br>
+         <input class="input" type="number" placeholder="enter your number"><br>
+
+           <label for="">Gender:</label><br>
+         <select name="" id="">
+            <option value="">select</option>
+            <option vale="male">male</option>
+            <option value="female">female</option>
+
+
+         </select>
+
+         <p></p>
+
+        <label for="">Email:</label><br>
+        <input class="input" type="email" placeholder="enter your email" required><br>
+
+        <label for="">Password:</label><br>
+        <input class="input" type="password" placeholder="password" minlength="8"><br>
+
+        <button>Sumbit</button>
+    </form>
+</body>
+</html>
